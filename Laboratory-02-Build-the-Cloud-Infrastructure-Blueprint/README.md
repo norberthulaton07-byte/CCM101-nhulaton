@@ -40,33 +40,33 @@ This laboratory activity explored four core cloud infrastructure components usin
 
 ## Linux Commands Executed 
 
-git clone https://github.com/norberthulaton07-byte/CCM101-nhulaton.git
-git config --global user.email "norbert.hulaton.07@gmail.com"
-git config --global user.name "norberthulaton07-byte"
-git add .
-git commit -m "Add Laboratory 02 folder structure"
-git commit -m "Add Checkpoint 4 cloud provider comparison"
-git push origin main
-git pull origin main
-mkdir Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
-touch README.md infrastructure-report.md cloud-components.md cloud-provider-comparison.md reflection.md
-mkdir screenshots
-touch screenshots/.gitkeep
-ls -R Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
-cat /etc/os-release
-uname -r
-lscpu | grep "Model name"
-nproc
-free -h
-df -h
-df -hT
-hostname
-hostname -I
-nano cloud-provider-comparison.md
-cd
-pwd
-ls
-ls ~
+- git clone https://github.com/norberthulaton07-byte/CCM101-nhulaton.git
+- git config --global user.email "user-email"
+- git config --global user.name "user-name"
+- git add .
+- git commit -m "Add Laboratory 02 folder structure"
+- git commit -m "Add Checkpoint 4 cloud provider comparison"
+- git push origin main
+- git pull origin main
+- mkdir Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
+- touch README.md infrastructure-report.md cloud-components.md cloud-provider-comparison.md reflection.md
+- mkdir screenshots
+- touch screenshots/.gitkeep
+- ls -R Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint
+- cat /etc/os-release
+- uname -r
+- lscpu | grep "Model name"
+- nproc
+- free -h
+- df -h
+- df -hT
+- hostname
+- hostname -I
+- nano cloud-provider-comparison.md
+- cd
+- pwd
+- ls
+- ls ~
 
 ## Skills Learned
 
