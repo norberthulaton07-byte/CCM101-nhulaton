@@ -24,7 +24,7 @@ At the end of this laboratory activity, you should be able to:
 - Create professional technical documentation using Markdown.
 - Continue building a structured GitHub Cloud Computing Portfolio.
 
-- ## Cloud Infrastructure Components
+## Cloud Infrastructure Components
 
 This laboratory activity explored four core cloud infrastructure components using the Killercoda Ubuntu Playground as a hands-on example. Compute resources were represented by the terminal environment itself, which runs as a virtualized instance sharing physical hardware with other users. Storage resources were examined through the disk space allocated to the environment, reflecting how cloud providers assign virtual disks to instances. Networking resources were identified through the environment's assigned hostname and IP address, similar to how cloud platforms assign machines addresses within a virtual network. Finally, the operating system, Linux, served as the foundation running the entire environment, reflecting its widespread use across real-world cloud servers. A detailed breakdown of each component is available in `cloud-components.md`.
 
