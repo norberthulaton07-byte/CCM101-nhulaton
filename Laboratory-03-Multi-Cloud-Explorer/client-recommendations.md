@@ -23,3 +23,14 @@ Services they could use: **Google Compute Engine** (high-performance computing),
 
 AWS is ideal for a global e-commerce company because it has data centers (regions and availability zones) spread across the world, ensuring low latency for customers everywhere. Its infrastructure is built for high availability, with automatic failover so the website stays online even if part of the system fails. AWS also offers auto-scaling to handle unpredictable traffic spikes, such as during sales events, without manual intervention. Additionally, AWS has extensive experience supporting large-scale e-commerce platforms (including Amazon.com itself), making it a proven and reliable choice.
 Services they could use: **Amazon EC2 with Auto Scaling** (handling traffic spikes), **Amazon CloudFront** (content delivery network for global speed), **Amazon RDS** (reliable, scalable database management).
+
+# Multi-Cloud Decision Matrix
+
+| Business Requirement     | Recommended Platform | Justification                                                                 |
+|----------------------------|------------------------|----------------------------------------------------------------------------------|
+| Startup Company              | AWS                       | Offers flexible pay-as-you-go pricing and the widest range of services, ideal for a growing startup with a limited budget. |
+| Enterprise Organization        | AWS                       | Provides the most mature and reliable infrastructure with strong global reach for large-scale enterprise operations. |
+| Microsoft Environment            | Azure                       | Integrates directly with existing Microsoft tools like Windows Server, Active Directory, and Microsoft 365. |
+| AI / Machine Learning              | GCP                           | Offers industry-leading AI/ML tools like Vertex AI and TensorFlow, plus specialized hardware such as TPUs. |
+| Kubernetes Deployment                | GCP                             | Google originally created Kubernetes and offers the most optimized experience through Google Kubernetes Engine (GKE). |
+| Global Web Application                 | AWS                               | Has the widest network of global data centers, ensuring high availability and low latency for users worldwide. |
