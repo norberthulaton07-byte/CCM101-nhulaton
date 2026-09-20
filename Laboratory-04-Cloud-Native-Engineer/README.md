@@ -10,3 +10,14 @@ differences between VMs and containers, execute your very first Docker commands,
 containerized web server in seconds.
 Remember: A traditional system administrator manages servers, but a cloud-native engineer manages
 the services running on them.
+
+## Mission Objectives
+
+At the end of this laboratory activity, I should be able to:
+
+- Differentiate between traditional Virtual Machines (VMs) and Containers.
+- Access a Docker-enabled cloud environment using KillerCoda.
+- Execute fundamental Docker CLI (Command Line Interface) commands.
+- Pull, run, manage, and terminate a containerized application (Nginx).
+- Create professional technical documentation of container operations using Markdown.
+- Continue developing a well-organized GitHub Cloud Computing Portfolio.
