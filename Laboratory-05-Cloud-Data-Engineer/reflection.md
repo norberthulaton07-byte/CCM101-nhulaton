@@ -3,11 +3,7 @@
 Working on this lab really helped me understand cloud storage on a much deeper level than just reading about it. Here's my reflection on the experience.
 
 Object storage is better suited for storing millions of photos compared to a traditional block storage hard drive because it doesn't rely on a folder hierarchy or fixed block addresses. Each photo is stored as its own object with metadata attached, so the system can scale almost infinitely without getting bogged down trying to organize everything into nested folders. Block storage is great for things like databases that need fast, low-latency access, but it's just not built to efficiently manage huge, ever-growing collections of unstructured files like images.
-
 Using Docker made deploying the MinIO storage server so much easier than doing it manually. Instead of installing MinIO directly onto a machine and dealing with dependencies, configuration files, and OS compatibility issues, I just pulled a container image and ran one command with a few flags for ports and credentials. It was up and running in seconds (well, after I dealt with some Docker Hub image issues along the way). Docker basically packages everything the app needs so it just works consistently anywhere.
-
 A "bucket" in cloud storage is basically a container (not a Docker container, just a storage container) that holds objects. It's kind of like the top-level folder where all your files for a specific purpose live, in our case, "client-photos." Buckets also let you set policies, permissions, and settings for everything inside them.
-
 I think large enterprise companies avoid losing object storage data through redundancy. They likely replicate data across multiple physical drives, servers, and even different geographic data centers, so if one server crashes, the data still exists elsewhere.
-
 Lastly, my confidence in navigating the Linux command line is definitely growing. This lab had me troubleshoot real errors (Git conflicts, failed Docker pulls, missing images) and each time I had to slow down, read the error message, and figure out the fix. It's still intimidating sometimes, but I'm getting more comfortable typing commands instead of relying only on GUIs.
