@@ -1,7 +1,3 @@
-# Types of Cloud Storage
-
-Before building our storage server, it's important to understand the three main types of cloud storage and how they differ. Below is a comparison table followed by a short explanation of why Object Storage is the best fit for our client's use case.
-
 ## Comparison Table
 
 | Storage Type | Description | Primary Use Case | Cloud Provider Example |
