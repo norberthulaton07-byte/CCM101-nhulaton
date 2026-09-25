@@ -4,7 +4,9 @@ This document outlines the technical steps taken to deploy MinIO, an S3-compatib
 
 ## Docker Command Used
 
-Since MinIO's official Docker Hub image (`minio/minio`) and its Quay.io mirror were both discontinued after MinIO archived their open-source repository in April 2026 (they moved to a commercial product called AIStor), I had to use a community-maintained alternative image instead. The exact command used was:
+Since MinIO's official Docker Hub image (`minio/minio`) and its Quay.io mirror were both discontinued after MinIO archived their open-source repository in April 2026 (they moved to a commercial product called AIStor), I had to use a community-maintained alternative image instead. The exact command used was: docker run -d -p 9000:9000 -p 9001:9001 --name minio-server -e "MINIO_ROOT_USER=cloudadmin" -e "MINIO_ROOT_PASSWORD=CloudNova2026!" -e "MINIO_BROWSER=on" bitnamilegacy/minio:2024
+
+
 ## Port Used to Access the Web Console
 
 The MinIO Web Console was accessed through **port 9001**. This port was mapped from the container to the host using the `-p 9001:9001` flag, and made accessible externally through KillerCoda's Traffic/Ports feature.
