@@ -10,6 +10,7 @@ The industry standard for this is Amazon S3, but today, you will deploy your ver
 storage server using an open-source tool called MinIO.
 Using your KillerCoda Playground, you will combine your new Docker skills with your cloud storage knowledge to
 deploy a live object storage server, create a storage "bucket," and upload data over the web.
+
 Remember: A cloud engineer doesn't just store data; they ensure it is scalable, accessible, and secure.
 
 
