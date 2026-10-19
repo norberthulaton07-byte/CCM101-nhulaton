@@ -32,13 +32,3 @@ Opens only the TCP port used by the web application.
 
 ### Warning: Enabling UFW Before Allowing SSH
 If `sudo ufw enable` were run before `sudo ufw allow ssh`, the default deny policy would block port 22 and lock the administrator out of the server.
-
-### Screenshots
-
-Firewall activated with default deny policy:
-
-![Firewall activated](screenshots/firewall-activated.png)
-
-Port 8080 allowed and web app reachable:
-
-![Port 8080 allowed](screenshots/firewall-port-allowed.png)
