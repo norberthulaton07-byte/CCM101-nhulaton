@@ -1,15 +1,25 @@
 # Laboratory 09 - Cloud Automation Engineer
 
 ## Mission Overview
-In this laboratory, I acted as a Cloud Automation Engineer for CloudNova Technologies. The mission was to replace a manual backup process with an automated one by writing a Bash backup script and scheduling it with a cron job, so client data is protected every night without human effort.
+Congratulations! Your ability to secure cloud environments has proven you are ready for the highest
+level of operations. You have been promoted to the Cloud Automation and DevOps Team at CloudNova
+Technologies.
+Up until now, you have been acting as a traditional systems administrator—typing commands manually
+one by one. In large enterprise environments scaling to thousands of servers, manual administration is too slow
+and highly prone to human error. To survive at scale, you must learn to automate.
+Using the KillerCoda Playground, you will step into the role of a Cloud Automation Engineer. You will
+learn the basics of Bash shell scripting, create an automated backup routine, assign executable permissions, and
+configure the Linux Cron scheduler to run your code autonomously.
+Remember: If you have to do a task more than twice in the cloud, you should automate it.
 
-## Objectives
-- Research and explain Bash scripts, variables, and cron jobs.
-- Create dummy client data to represent the data being protected.
-- Write a Bash script that compresses the data into a timestamped `.tar.gz` backup.
-- Grant execute permission to the script using `chmod`.
-- Schedule the script to run automatically every night at 2:00 AM using cron.
-- Document the solution for the client's IT team.
+## Mission Objectives
+- At the end of this laboratory activity, you should be able to:
+- Understand the fundamental syntax of a Bash shell script, including variables and basic commands.
+- Use a command-line text editor (nano) to write and save executable scripts.
+- Modify Linux file permissions using the chmod command.
+- Understand task scheduling and the syntax of a Linux crontab.
+- Document automation code and Cron job configurations using Markdown.
+- Complete the final chapter of your GitHub Cloud Computing Portfolio. 
 
 ## Commands Executed
 ```bash
