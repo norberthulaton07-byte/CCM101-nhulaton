@@ -1,15 +1,24 @@
-# Laboratory 08 - Cloud Security Engineer
-
 ## Mission Overview
-In this laboratory, I acted as a Cloud Security Engineer. I deployed a vulnerable Nginx web application in a Docker container on an Ubuntu server, then secured it using the UFW firewall. The mission was to apply the Principle of Least Privilege and a Default Deny policy so that only the traffic needed for administration and the web service could reach the server.
+Mission Overview
+Congratulations! Your proactive approach to system monitoring has earned you a spot on the elite
+Cloud Security Team at CloudNova Technologies.
+In the cloud, leaving a server unsecured for even a few minutes can lead to automated brute-force
+attacks and data breaches. Your mission today applies the security concepts you learned in Chapter 8. You will
+implement the principle of defense in depth by locking down a live server using a host-based firewall.
+Using the KillerCoda Playground, you will step into the role of a Cloud Security Engineer. You will
+deploy a web application, audit the server's open ports, and configure the Uncomplicated Firewall (UFW) to block
+malicious traffic while allowing legitimate users to access the application.
+Remember: Security is not a product you buy; it is a continuous process you maintain.
 
-## Objectives
-- Define key security concepts: Principle of Least Privilege, Attack Surface, and Default Deny Policy.
-- Deploy a web application (Nginx) in a container on port 8080.
-- Configure UFW to allow SSH and block all other incoming traffic by default.
-- Open only the required port (8080/tcp) for legitimate web users.
-- Verify the firewall rules and test access using curl.
-- Document the configuration and results with screenshots.
+## Mission Objectives
+At the end of this laboratory activity, you should be able to:
+
+- Understand the concept of the Attack Surface and the Principle of Least Privilege (PoLP).
+- Perform a basic security audit of active network ports on a Linux server.
+- Configure the Uncomplicated Firewall (UFW) with a Default Deny policy.
+- Implement granular port management to selectively allow SSH and HTTP traffic.
+- Document firewall rules and security best practices using Markdown.
+- Continue expanding your professional GitHub Cloud Computing Portfolio. 
 
 ## Commands Executed
 
@@ -32,8 +41,3 @@ In this laboratory, I acted as a Cloud Security Engineer. I deployed a vulnerabl
 - Avoiding lockouts by allowing SSH before enabling the firewall.
 - Documenting security work clearly using Markdown and screenshots.
 
-## Files in This Folder
-- `security-audit-report.md` - security concepts and application deployment
-- `firewall-configuration.md` - firewall commands and explanations
-- `reflection.md` - lab reflection
-- `screenshots/` - evidence of each step
