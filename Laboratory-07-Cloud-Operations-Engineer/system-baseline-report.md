@@ -12,3 +12,14 @@ tmpfs           952M   84K  952M   1% /dev/shm
 tmpfs           5.0M     0  5.0M   0% /run/lock
 /dev/vda16      881M  117M  703M  15% /boot
 /dev/vda15      105M  6.2M   99M   6% /boot/efi
+
+
+## Host Baseline Values
+
+- **Total RAM available:** [e.g., 3.8 GiB, from the Mem: total column of `free -h`]
+- **Total storage capacity of root (/) file system:** [e.g., 19G, from the Size column of `df -h`]
+
+## Why Check Disk Space Before a Traffic Surge?
+
+Checking disk space is critical before a massive traffic surge because a full disk can crash applications and databases when logs, caches, and data suddenly grow, causing downtime.
+
