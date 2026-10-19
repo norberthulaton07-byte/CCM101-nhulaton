@@ -1,0 +1,2 @@
+- **Memory Usage:** [e.g., 4.5MiB]
+- **CPU Percentage:** [e.g., 0.00%]
